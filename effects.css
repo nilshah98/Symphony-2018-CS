@@ -4,6 +4,25 @@
   z-index:100;
 }
 
+#navlogo
+{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+@media only screen and (max-width: 500px)
+{
+  #navlogo
+  {
+    top:9px;
+  }
+  #navlogo img
+  {
+    width: 150px;
+    height: auto;
+  }
+}
+
 /* Wrapper */
 .icon-button {
   background-color: white;
