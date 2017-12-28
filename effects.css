@@ -1,0 +1,269 @@
+#icons {
+  position: fixed;
+  bottom: 0px;
+  z-index:100;
+}
+
+/* Wrapper */
+.icon-button {
+  background-color: white;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 2.6rem;
+}
+
+/* Circle */
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 2.6rem;
+  margin: -1.3rem;
+}
+
+/* Icons */
+.icon-button i {
+  background: none;
+  color: white;
+  height: 2.6rem;
+  left: 0;
+  line-height: 2.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 2.6rem;
+  z-index: 10;
+}
+
+
+
+
+
+.twitter span {
+  background-color: #4099ff;
+}
+.facebook span {
+  background-color: #3B5998;
+}
+.google-plus span {
+  background-color: #db5a3c;
+}
+.tumblr span {
+  background-color: #34526f;
+}
+.instagram span {
+  background-color: #517fa4;
+}
+.youtube span {
+  background-color: #bb0000;
+}
+.pinterest span {
+  background-color: #cb2027;
+}
+
+
+
+.icon-button .fa-twitter {
+  color: #4099ff;
+}
+.icon-button .fa-facebook {
+  color: #3B5998;
+}
+.icon-button .fa-tumblr {
+  color: #34526f;
+}
+.icon-button .fa-google-plus {
+  color: #db5a3c;
+}
+.icon-button .fa-instagram {
+  color: #517fa4;
+}
+.icon-button .fa-youtube {
+  color: #bb0000;
+}
+.icon-button .fa-pinterest {
+  color: #cb2027;
+}
+
+
+
+
+.icon-button:hover .fa-twitter,
+.icon-button:hover .fa-facebook,
+.icon-button:hover .fa-google-plus,
+.icon-button:hover .fa-tumblr,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-youtube,
+.icon-button:hover .fa-pinterest {
+  color: white;
+}
+body {
+  background: #7b295c;
+  color: white;
+  font-family: arial;
+}
+body header {
+  height: 10vh;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (min-width: 37.4375em) {
+  body header {
+    width: 600px;
+  }
+}
+body header .timer {
+  position: absolute;
+  top: 14%;
+  left: 3%;
+  font-size: 23px;
+  background: #fb736a;
+  width: 8vh;
+  height: 8vh;
+  line-height: 8vh;
+  border-radius: 4vh;
+  text-align: center;
+}
+
+.game {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+@media screen and (min-width: 37.4375em) {
+  .game {
+    width: 600px;
+  }
+}
+
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  perspective: 1000;
+  height: 22%;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.flip-container.flip .flipper {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 23%;
+  float: left;
+  border-radius: 12px;
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 100%;
+  position: relative;
+}
+.flipper .front, .flipper .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -ms-backface-visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0,0,0,0.2) 0 8px 2px;
+}
+.flipper .front {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  background: #9a3767;
+}
+.flipper .back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  border: 1px solid #E8E8E8;
+}
+
+#piggy-bank {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/piggy-bank.png") no-repeat center;
+  background-size: contain;
+}
+
+#shoe {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/shoe.png") no-repeat center;
+  background-size: contain;
+}
+
+#plane {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/plane.png") no-repeat center;
+  background-size: contain;
+}
+
+#suitcase {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/suitcase.png") no-repeat center;
+  background-size: contain;
+}
+
+#robot {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/robot.png") no-repeat center;
+  background-size: contain;
+}
+
+#ring {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/ring.png") no-repeat center;
+  background-size: contain;
+}
+
+#palm-tree {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/palm-tree.png") no-repeat center;
+  background-size: contain;
+}
+
+#mp3 {
+  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/mp3.png") no-repeat center;
+  background-size: contain;
+}
