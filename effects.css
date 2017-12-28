@@ -229,41 +229,41 @@ body header .timer {
 }
 
 #piggy-bank {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/piggy-bank.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game adivasi.png") no-repeat center;
+  background-size: cover;
 }
 
 #shoe {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/shoe.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game caveman.png") no-repeat center;
+  background-size: cover;
 }
 
 #plane {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/plane.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game cleopatra.png") no-repeat center;
+  background-size: cover;
 }
 
 #suitcase {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/suitcase.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game harmit.png") no-repeat center;
+  background-size: cover;
 }
 
 #robot {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/robot.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game cyborg.png") no-repeat center;
+  background-size: cover;
 }
 
 #ring {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/ring.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game knight scream.png") no-repeat center;
+  background-size: cover;
 }
 
 #palm-tree {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/palm-tree.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game rick.png") no-repeat center;
+  background-size: cover;
 }
 
 #mp3 {
-  background: white url("https://res.cloudinary.com/lloydfenton/image/upload/v1460983932/mp3.png") no-repeat center;
-  background-size: contain;
+  background: white url("assets/game-robot.png") no-repeat center;
+  background-size: cover;
 }
